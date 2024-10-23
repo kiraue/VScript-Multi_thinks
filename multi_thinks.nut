@@ -1,3 +1,6 @@
+//If you want to credit me for this script, sure. If you dont want to, why not lol
+//Just dont credit someone else for it, its either me or no one :) .
+
 if (!("__V_MULTI_THINKS_SCRIPT__" in getroottable()))
 {
 getroottable()["__V_MULTI_THINKS_SCRIPT__"] <- true;
