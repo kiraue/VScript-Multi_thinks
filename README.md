@@ -42,4 +42,4 @@ As for the Realign function, the way this script works is it gives the entity in
 is called \_\_mult_think__ inside of the entity script scope), every time you add a think function, it appends the actual special_think to an array inside of the entity's script scope, then it appends the return
 value inside an array, the name inside another array, ... . This is mostly for quicker access of the values, but it might lead to the arrays getting misaligned, so thats what Realign is here for.
 
-Also side note: entity doesnt have to be an entity handle, it can also be a valid entity index if the entity is actually an edict
+Also side note: entity doesnt have to be an entity handle, it can also be a valid entity index if the entity is an edict
